@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,800,800i|Open+Sans:300,300i,800|Spectral:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Containers */
+
+.container {
+	margin: 0;
+}
+
+.menu-container {
+	margin: 0;
+	font-size: 0;
+}
+
+.home-container {
+	margin: 0;
+}
+
+/* Colours */
+
+.blue {
+	color: #4D88C2;
+}
+
+.red {
+	color: #A60303;
+}
+
+.lgrey {
+	color: #A6ADB4;
+}
+
+.dgrey {
+	color: #777B7E;
+}
+
+/* Navbar */
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 12px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*-------------------------------Hover.css */
+
+.hvr-sweep-to-right::before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 60px;
+}
+
+/* Blockdividers */
+
+
+
+/* Buttons */
+
+/* Alert */
+
+/* Page Headers */
+
+/* Quotes */
+
+/* Features */
+
