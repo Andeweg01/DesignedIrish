@@ -9,8 +9,11 @@ body {
 
 /* Containers */
 
+.container-wrapper {}
+
 .container-fluid {
 	margin: 0;
+	padding: 0;
 }
 
 .menu-container {
@@ -33,14 +36,38 @@ body {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	float: none;
 }
 
 .content-container {
+	margin: 0;
 	padding: 80px 35px;
 	float: left;
 }
 
+/* Paragraphs */
+
+.alert-1 {
+	font-weight: 200;
+	color: white;
+	text-align: center;
+}
+
+.alert-2 {
+	color: #A6ADB4;
+	text-align: left;
+}
+
+.alert-3 {
+	color: #A6ADB4;
+	text-align: right;
+}
+
 /* Colours */
+
+.white {
+	color: #fff;
+}
 
 .blue {
 	color: #4D88C2;
@@ -124,20 +151,19 @@ body {
 
 .pageheader-lt {
 	font-family: 'Spectral', serif;
+	text-align: center;
 	font-size: 2em;
 	color: white;
 }
 
 .pageheader-dk {
 	font-family: 'Spectral', serif;
+	text-align: center;
 	font-size: 2em;
 	color: white;
 }
 
-
 /* Blockdividers */
-
-
 
 /* Buttons */
 
