@@ -54,11 +54,15 @@ body {
 }
 
 .alert-2 {
+	margin-left: 35px;
+	font-weight: 600;
 	color: #A6ADB4;
 	text-align: left;
 }
 
 .alert-3 {
+	margin-right: 35px;
+	font-weight: 600;
 	color: #A6ADB4;
 	text-align: right;
 }
