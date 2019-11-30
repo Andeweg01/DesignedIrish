@@ -37,6 +37,7 @@ body {
 
 .content-container {
 	padding: 80px 35px;
+	float: left;
 }
 
 /* Colours */
@@ -135,6 +136,8 @@ body {
 
 
 /* Blockdividers */
+
+
 
 /* Buttons */
 
