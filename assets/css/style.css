@@ -9,7 +9,9 @@ body {
 
 /* Containers */
 
-.container-wrapper {}
+.container-wrapper {
+	margin: 0;
+}
 
 .container-fluid {
 	margin: 0;
@@ -39,10 +41,19 @@ body {
 	position: relative;
 }
 
-.home-container-2 {
+#home-container-2 {
+	margin: 35px;
 	display: flex;
+	justify-content: space-between;
+}
+
+#home-container-3 {
+	margin: 35px;
+	display: flex;
+	justify-content: space-between;
 	align-items: flex-end;
 }
+
 
 /* Paragraphs */
 
