@@ -7,16 +7,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-brand {
+	font-family: 'Spectral', serif;
+}
+
 /* Containers */
-
-.container-wrapper {
-	margin: 0;
-}
-
-.container-fluid {
-	margin: 0;
-	padding: 0;
-}
 
 .menu-container {
 	width: 100%;
@@ -24,6 +19,11 @@ body {
 	padding: 0;
 	position: fixed;
 	z-index: 1;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
 }
 
 .home-container {
@@ -41,16 +41,15 @@ body {
 	position: relative;
 }
 
-#home-container-2 {
-	margin: 35px;
+.home-container-2 {
+	margin: 0px 35px;
 	display: flex;
 	justify-content: space-between;
 }
 
-#home-container-3 {
+.home-container-3 {
 	margin: 35px;
 	display: flex;
-	justify-content: space-between;
 	align-items: flex-end;
 }
 
@@ -70,7 +69,7 @@ body {
 	color: #A6ADB4;
 	text-align: left;
 	display: flex;
-	align-items: flex-end
+	align-items: flex-end;
 }
 
 .alert-3 {
@@ -79,7 +78,7 @@ body {
 	color: #A6ADB4;
 	text-align: right;
 	display: flex;
-	align-items: flex-end
+	align-items: flex-end;
 }
 
 /* Colours */
