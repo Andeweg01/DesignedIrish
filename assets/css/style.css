@@ -42,7 +42,8 @@ body {
 }
 
 .home-container-1 {
-	width: 100%;
+	width: 85%;
+	height: 50%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -51,20 +52,18 @@ body {
 
 .home-container-2 {
 	width: 100%;
-	height: auto;
 	margin: 0;
 }
 
 .home-container-3 {
 	width: 100%;
-	height: auto;
 	margin: 0;
 }
 
 /* Paragraphs */
 
 .alert-1 {
-	margin-top: 90px;
+	margin-top: 10px;
 	font-weight: 200;
 	color: white;
 	text-align: center;
@@ -169,6 +168,14 @@ body {
 	text-align: center;
 	font-size: 2em;
 	color: white;
+}
+
+.pageheader-lt-mt {
+	font-family: 'Spectral', serif;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	margin-top: 90px;
 }
 
 .pageheader-dk {
