@@ -25,29 +25,29 @@ body {
 }
 
 .home-container {
+	width: 100%;
 	margin: 0;
+	padding: 0;
 	height: 100vh;
+	display: block;
 	background:url('../images/img_oyster_lg.jpg') no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	display: flex;
-	align-items: center;
 	justify-content: center;
 	position: relative;
-	float: none;
 }
 
-.content-container {
-	margin: 0;
-	padding: 80px 35px;
-	float: left;
+.home-container-2 {
+	display: flex;
+	align-items: flex-end;
 }
 
 /* Paragraphs */
 
 .alert-1 {
+	margin-top: 70px;
 	font-weight: 200;
 	color: white;
 	text-align: center;
@@ -58,6 +58,8 @@ body {
 	font-weight: 600;
 	color: #A6ADB4;
 	text-align: left;
+	display: flex;
+	align-items: flex-end
 }
 
 .alert-3 {
@@ -65,6 +67,8 @@ body {
 	font-weight: 600;
 	color: #A6ADB4;
 	text-align: right;
+	display: flex;
+	align-items: flex-end
 }
 
 /* Colours */
@@ -144,12 +148,6 @@ body {
 	width: 100%;
 }
 
-/*-------------------------------Hover.css */
-
-.hvr-sweep-to-right::before {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 60px;
-}
 
 /* PageHeaders */
 
