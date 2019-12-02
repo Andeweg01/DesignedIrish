@@ -58,6 +58,35 @@ body {
 	margin: 0;
 }
 
+.experience-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	align-content: center;
+	position: relative;
+	background-color: #A6ADB4;
+	background-size: cover;
+}
+
+.projects-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background:url('../images/img_cello_lg.jpg') no-repeat center;
+	background-color: aqua;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+
+
 /* Paragraphs */
 
 .alert-1 {
@@ -180,10 +209,55 @@ body {
 	font-family: 'Spectral', serif;
 	text-align: center;
 	font-size: 2em;
-	color: white;
+	color: #777B7E;
+	margin-top: 90px;
+
 }
 
-/* Blockdividers */
+/* Experience / Education */
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+	margin-left: 30%;
+    position: relative;
+    color: #4D88C2;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #4D88C2;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
 
 /* Buttons */
 
