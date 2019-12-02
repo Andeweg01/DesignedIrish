@@ -62,7 +62,6 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100vh;
 	align-content: center;
 	position: relative;
 	background-color: white;
@@ -76,8 +75,8 @@ body {
 	padding: 0;
 	width: 100%;
 	height: 100vh;
-	background:url('../images/img_cello_lg.jpg') no-repeat right;
-	background-size: 90%;
+	background:url('../images/img-cello-lg.png') no-repeat right;
+	background-size: 15%;
 	background-color: #4D88C2;
 	position: relative;
 }
@@ -138,6 +137,13 @@ body {
 	font-weight: 600;
 	color: #A6ADB4;
 	text-align: right;
+}
+
+.projects {
+	font-weight: 200;
+	font-size: 13px;
+	color: white;
+	text-align: left;
 }
 
 /* Colours */
@@ -221,13 +227,6 @@ body {
 /* PageHeaders */
 
 .pageheader-lt {
-	font-family: 'Spectral', serif;
-	text-align: center;
-	font-size: 2em;
-	color: white;
-}
-
-.pageheader-lt-mt {
 	font-family: 'Spectral', serif;
 	text-align: center;
 	font-size: 2em;
