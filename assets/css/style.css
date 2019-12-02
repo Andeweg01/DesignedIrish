@@ -27,32 +27,30 @@ body {
 }
 
 .home-container {
-	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	height: 100vh;
-	display: flex;
 	background:url('../images/img_oyster_lg.jpg') no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	justify-content: center;
 	position: relative;
 }
 
 .home-container-1 {
 	width: 85%;
-	height: 50%;
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: flex-start;
 }
 
 .home-container-2 {
-	width: 100%;
-	margin: 0;
+	width: 85%;
+	position: absolute;
+	bottom: 0;
 }
 
 .home-container-3 {
