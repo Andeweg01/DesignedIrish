@@ -11,6 +11,11 @@ body {
 	font-family: 'Spectral', serif;
 }
 
+.skill {
+		text-align: center;
+		font-weight: 100;
+	}
+
 /* Containers */
 
 .menu-container {
@@ -82,9 +87,6 @@ body {
 }
 
 .skill-container {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -115,6 +117,16 @@ body {
 	position: relative;
 }
 
+.contact-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	align-content: center;
+	position: relative;
+	background-color: white;
+	background-size: cover;
+}
+
 
 /* Paragraphs */
 
@@ -127,6 +139,7 @@ body {
 
 .alert-2 {
 	margin-left: 35px;
+	margin-bottom: 35px;
 	font-weight: 600;
 	color: #A6ADB4;
 	text-align: left;
@@ -142,7 +155,7 @@ body {
 .projects {
 	margin-left: 35px;
 	font-weight: 200;
-	font-size: 13px;
+	font-size: 16px;
 	color: white;
 	text-align: left;
 }
