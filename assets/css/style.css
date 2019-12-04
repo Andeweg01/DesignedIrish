@@ -1,6 +1,7 @@
 @charset 'utf-8';
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,800,800i|Open+Sans:300,300i,800|Spectral:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -126,15 +127,35 @@ a:hover {
   position: relative;
 }
 .contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
-  align-content: center;
-  position: relative;
-  background-color: white;
+  background: url('../images/img_oyster_lg_light.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  position: relative;
 }
+.contact-container-1 {
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+.contact-container-2 {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+}
+
 /* Paragraphs */
 .alert-1 {
   margin-top: 10px;
@@ -167,6 +188,16 @@ a:hover {
   color: white;
   text-align: left;
 }
+.form-padding {
+	padding: 10px;
+	margin: 0 auto;
+	max-width: 75%;
+}
+.footer-text {
+	font-size: 0.7em;
+	color: white;
+}
+
 /* Colours */
 .white {
   color: #fff;
@@ -203,10 +234,7 @@ a:hover {
   font-size: 12px;
   padding: 0;
 }
-.list-inline-item:not(:last-child) {
-  margin: 0;
-  width: 100%;
-}
+
 /* PageHeaders */
 .pageheader-lt {
   font-family: 'Spectral', serif;
@@ -224,6 +252,7 @@ a:hover {
   margin-top: 90px;
   margin-bottom: 35px;
 }
+
 /* Experience / Education */
 .timeline-item {
   padding: 4em 2em 0em 2em;
@@ -261,6 +290,7 @@ a:hover {
 .history-items {
   margin-bottom: 30px;
 }
+
 /* Footer */
 .footer {
   background-color: #A6ADB4;
