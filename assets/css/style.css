@@ -16,11 +16,6 @@ a:hover {
 .text-white {
   text-shadow: 1px 1px #000000;
 }
-.figure-caption{
-	font-size: 0.6rem;
-	text-decoration: none;
-	color: white;
-}
 .navbar-brand {
   font-family: 'Spectral', serif;
   display: inline-block;
@@ -104,8 +99,6 @@ a:hover {
   height: 100vh;
   background-color: #4D88C2;
   position: relative;
-  text-shadow: 1px 1px #000000;
-
 }
 .skill-container {
   margin: 0;
@@ -164,7 +157,6 @@ a:hover {
   position: absolute;
   bottom: 0;
 }
-
 /* Paragraphs */
 .alert-1 {
   margin-top: 10px;
@@ -190,21 +182,29 @@ a:hover {
   text-shadow: 2px 2px #000000;
 }
 .projects {
-  margin-left: 35px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
   font-weight: 200;
   font-size: 14px;
   color: white;
   text-align: left;
   text-shadow: 1px 1px #000000;
 }
+.figure-caption {
+  margin-left: 25px;
+  font-size: 0.6rem;
+  color: white;
+}
 .form-padding {
-	margin: 0 35px;
-	max-width: 75%;
+  margin: 0 35px;
+  max-width: 75%;
 }
 .footer-text {
-	font-size: 0.7em;
-	color: white;
+  font-size: 0.8em;
+  color: white;
+}
+#footer-content {
+  padding: 20px;
 }
 /* Colours */
 .white {
@@ -217,10 +217,10 @@ a:hover {
   background-color: #4D88C2;
 }
 .red {
-  color: #A60303;
+  color: #669999;
 }
 .back-red {
-  background-color: #A60303;
+  background-color: #669999;
 }
 .lgrey {
   color: #A6ADB4;
@@ -251,7 +251,6 @@ a:hover {
   margin-top: 90px;
   margin-bottom: 20px;
   text-shadow: 1px 1px #000000;
-
 }
 .pageheader-dk {
   font-family: 'Spectral', serif;
@@ -276,7 +275,7 @@ a:hover {
 .timeline-item:before {
   content: attr(data-dates);
   position: absolute;
-  left: 2.5em;
+  left: 3em;
   top: 3em;
   display: block;
   font-weight: 500;
@@ -296,7 +295,7 @@ a:hover {
   background: #4D88C2;
 }
 .history-items {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 /* Footer */
 .footer {
@@ -337,7 +336,4 @@ a:hover {
 }
 .social-links li a i:hover {
   background: #A60303;
-}
-#footer-content {
-  padding: 20px;
 }
