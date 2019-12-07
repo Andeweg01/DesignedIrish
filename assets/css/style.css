@@ -200,7 +200,7 @@ a:hover {
   color: white;
 }
 .form-margin {
-  margin: 35px;
+  margin: 35px 35px 100px 35px;
   min-width: 50%;
   max-width: 85%;
 }
