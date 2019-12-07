@@ -88,14 +88,12 @@ a:hover {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
   background-color: #4D88C2;
 }
 .skill-container {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
   background: url('../images/img_kite_lg.jpg') no-repeat center;
   background-color: white;
   -webkit-background-size: cover;
@@ -127,7 +125,6 @@ a:hover {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
   background: url('../images/img_oyster_lg_bright.jpg') no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -147,16 +144,6 @@ a:hover {
   background-color: #777B7E;
   position: absolute;
   bottom: 0;
-}
-.footer-container {
-  width: 100%;
-  height: 80px;
-  background-color: #777B7E;
-  margin: 0;
-  bottom: 0;
-  padding: 0;
-  position: fixed;
-  z-index: 1;
 }
 
 /* Paragraphs */
@@ -198,7 +185,7 @@ a:hover {
   font-size: 0.6rem;
   color: white;
 }
-.form-padding {
+.form-margin {
   margin: 35px;
   min-width: 50%;
   max-width: 85%;
@@ -206,9 +193,6 @@ a:hover {
 .footer-text {
   font-size: 0.8em;
   color: white;
-}
-#footer-content {
-  padding: 20px;
 }
 
 /* Colours */
@@ -310,11 +294,6 @@ a:hover {
 
 /* Footer */
 
-.footer {
-  background-color: #A6ADB4;
-  color: #fff;
-  min-height: 80px;
-}
 .cv-pdf i {
   font-size: 18px;
   color: #fff;
@@ -326,7 +305,7 @@ a:hover {
   -o-transition: all 0.25s ease-in-out;
 }
 .cv-pdf i:hover {
-  color: #A60303;
+  color:#4D88C2;
 }
 .social-links {
   padding-bottom: 15px;
@@ -347,5 +326,5 @@ a:hover {
   -o-transition: all 0.25s ease-in-out;
 }
 .social-links li a i:hover {
-  background: #A60303;
+  background:#4D88C2;
 }
