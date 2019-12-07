@@ -8,6 +8,7 @@ html {
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 a {
   color: white;
@@ -66,34 +67,44 @@ a:hover {
   position: relative;
 }
 .home-container-1 {
-  width: 85%;
+  width: 100%;
   display: flex;
 }
 .home-container-2 {
-  width: 85%;
-  position: absolute;
+  width: 100%;
+  position: relative;
   bottom: 0;
 }
 .experience-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 100vh;
   background: url('../images/Selfie_bright.jpg') no-repeat left bottom;
+  background-size: 30%;
   align-content: center;
   position: relative;
   background-color: white;
-  background-size: 30%;
 }
 .projects-container {
+  display: flex;
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 100vh;
   background-color: #4D88C2;
 }
 .skill-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 100vh;
   background: url('../images/img_kite_lg.jpg') no-repeat center;
   background-color: white;
   -webkit-background-size: cover;
@@ -125,6 +136,7 @@ a:hover {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: auto;
   background: url('../images/img_oyster_lg_bright.jpg') no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -142,7 +154,7 @@ a:hover {
   width: 100%;
   height: auto;
   background-color: #777B7E;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -151,16 +163,18 @@ a:hover {
 .alert-1 {
   margin-top: 10px;
   font-weight: 200;
+  font-weight: 600;
+  font-size: 1.2em;
   color: white;
   text-align: center;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 2px 2px #000000;
 }
 .alert-2 {
   margin-left: 35px;
   margin-bottom: 50px;
   font-weight: 600;
   font-size: 1.2em;
-  color: #A6ADB4;
+  color: white;
   text-align: left;
   text-shadow: 2px 2px #000000;
 }
