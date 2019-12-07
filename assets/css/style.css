@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -199,7 +200,6 @@ a:hover {
 }
 .form-padding {
   margin: 35px;
-  display: block;
   min-width: 50%;
   max-width: 85%;
 }
