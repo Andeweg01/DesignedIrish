@@ -109,7 +109,7 @@ a:hover {
   padding: 0;
   width: 100%;
   min-height: 100vh;
-  background: url('../images/img_kite_lg.jpg') no-repeat center;
+  background: url('../images/img_kite_lg.jpg') no-repeat left;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -203,7 +203,7 @@ a:hover {
   color: white;
 }
 .form-margin {
-  margin: 0px 35px;
+  margin: 0px 35px 20px 0px;
   min-width: 50%;
   max-width: 85%;
 }
