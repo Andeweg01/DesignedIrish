@@ -64,6 +64,7 @@ a:hover {
 }
 .home-container-1 {
   width: 100%;
+  padding: 0px 20px;
   display: flex;
 }
 .home-container-2 {
@@ -153,7 +154,7 @@ a:hover {
   width: 100%;
   height: auto;
   background-color: #777B7E;
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 
@@ -198,7 +199,7 @@ a:hover {
   color: white;
 }
 .form-margin {
-  margin: 35px 35px 100px 35px;
+  margin: 0px 35px;
   min-width: 50%;
   max-width: 85%;
 }
