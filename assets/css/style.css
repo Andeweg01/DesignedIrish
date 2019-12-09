@@ -154,7 +154,7 @@ a:hover {
   width: 100%;
   height: auto;
   background-color: #777B7E;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
