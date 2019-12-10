@@ -65,5 +65,77 @@ The stages in the UX process can be seen in
   * HTML5
   * CSS3
 
+### Testing:
+Testing of the website is done physically on Windows 10 desktop, tablet and laptop, Android tablet and phone, iPad iOS, iPhone and MacBook Pro.
+The tested browsers were Chrome, Edge, Firefox, Samsung for Android tablet, Safari.
+The following was tested:
 
+1 *Responsiveness:* Do the columns appear or disappear resizing the screen or rotating. Do images resize as intended and does all text stay readable and visible.
+
+2 *Navigation:* Do all the buttons in the navigation link to the appropriate anchors and does the back and forward function of the browser keep working for the user.
+
+3 *Links:* Are all the hyperlinks assigned and functional and do they link to the appropriate file, hyperlink, anchor or website and do blank pages open where needed.
+
+4 *Form:* Does the form warn when fields are blank before sending. The return page after sending will be added in a next stage, but no error messages will alarm the user.
+
+5 *Scroll effect:* Does the site show a smooth scrolling effect when using the navigation bar. Safari and Edge are known to need some JavaScript code to achieve this effect. This will be implemented in a later stage.
+
+|   Windows 10 tablet and laptop:   |   Chrome   |   Firefox   |   Edge   |   Samsung   |   Safari   |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   1                               |      +     |      +      |     +    |             |            |
+|   2                               |      +     |      +      |     +    |             |            |
+|   3                               |      +     |      +      |     +    |             |            |
+|   4                               |      +     |      +      |     +    |             |            |
+|   5                               |      +     |      +      |     X    |             |            |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   Windows 10 desktop:             |   Chrome   |   Firefox   |   Edge   |   Samsung   |   Safari   |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   1                               |      +     |      +      |     +    |             |            |
+|   2                               |      +     |      +      |     +    |             |            |
+|   3                               |      +     |      +      |     +    |             |            |
+|   4                               |      +     |      +      |     +    |             |            |
+|   5                               |      +     |      +      |     X    |             |            |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   Android tablet:                 |   Chrome   |   Firefox   |   Edge   |   Samsung   |   Safari   |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   1                               |      +     |      +      |          |       +     |            |
+|   2                               |      +     |      +      |          |       +     |            |
+|   3                               |      +     |      +      |          |       +     |            |
+|   4                               |      +     |      +      |          |       +     |            |
+|   5                               |      +     |      +      |          |       +     |            |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   Android phone:                  |   Chrome   |   Firefox   |   Edge   |   Samsung   |   Safari   |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   1                               |      +     |             |          |             |            |
+|   2                               |      +     |             |          |             |            |
+|   3                               |      +     |             |          |             |            |
+|   4                               |      +     |             |          |             |            |
+|   5                               |      +     |             |          |             |            |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   iPad:                           |   Chrome   |   Firefox   |   Edge   |   Samsung   |   Safari   |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   1                               |      +     |             |          |             |      +     |
+|   2                               |      +     |             |          |             |      +     |
+|   3                               |      +     |             |          |             |      +     |
+|   4                               |      +     |             |          |             |      +     |
+|   5                               |      X     |             |          |             |      X     |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   iPhone:                         |   Chrome   |   Firefox   |   Edge   |   Samsung   |   Safari   |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   1                               |      +     |             |     +    |             |      +     |
+|   2                               |      +     |             |     +    |             |      +     |
+|   3                               |      +     |             |     +    |             |      +     |
+|   4                               |      +     |             |     +    |             |      +     |
+|   5                               |      X     |             |     X    |             |      X     |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   MacBookPro:                     |   Chrome   |   Firefox   |   Edge   |   Samsung   |   Safari   |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+|   1                               |            |             |          |             |      +     |
+|   2                               |            |             |          |             |      +     |
+|   3                               |            |             |          |             |      +     |
+|   4                               |            |             |          |             |      +     |
+|   5                               |            |             |          |             |      X     |
+| --------------------------------  |   ------   |   -------   |   ----   |   -------   |   ------   |
+
+Colours look good on all platforms and browsers.
 
