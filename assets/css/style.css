@@ -16,9 +16,21 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+/* white text on images need shadow to stay readable */
 .text-white {
   text-shadow: 1px 1px #000000;
 }
+/* Navbar */
+
+#nav {
+  margin: 0;
+}
+#nav li {
+  font-size: 12px;
+  padding: 0;
+}
+
 .navbar-brand {
   font-family: 'Spectral', serif;
   display: inline-block;
@@ -30,18 +42,72 @@ a:hover {
   line-height: inherit;
   white-space: nowrap;
 }
-.skill {
-  text-align: center;
-  font-weight: 100;
-}
+/* redundant */
 .inline-block {
   display: inline-block;
+}
+/* Colours */
+
+.white {
+  color: #fff;
+}
+.blue {
+  color: #4D88C2;
+}
+.back-blue {
+  background-color: #4D88C2;
+}
+.green {
+  color: #669999;
+}
+.back-red {
+  background-color: #669999;
+}
+.lgrey {
+  color: #A6ADB4;
+}
+.back-lgrey {
+  background-color: #A6ADB4;
+}
+.dgrey {
+  color: #777B7E;
+}
+.back-dgrey {
+  background-color: #777B7E;
+}
+
+/* PageHeaders */
+
+.pageheader-lt {
+  font-family: 'Spectral', serif;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #000000;
+}
+.pageheader-dk {
+  font-family: 'Spectral', serif;
+  text-align: center;
+  font-size: 2em;
+  color: #777B7E;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.pageheader-red {
+  font-family: 'Spectral', serif;
+  text-align: center;
+  font-size: 2em;
+  color: #993333;
+  margin-top: 90px;
 }
 
 /* Containers */
 
 .wrapper {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .menu-container {
@@ -51,6 +117,7 @@ a:hover {
   position: fixed;
   z-index: 1;
 }
+/* flexbox used to distribute containers vertically */
 .home-container {
   display: flex;
   justify-content: space-between;
@@ -166,6 +233,7 @@ a:hover {
 
 .alert-1 {
   margin-top: 10px;
+  padding: 5px;
   font-weight: 600;
   font-size: 1.2em;
   color: white;
@@ -195,9 +263,13 @@ a:hover {
   font-size: 14px;
   color: white;
   text-align: left;
-  text-shadow: 1px 1px #000000;
+}
+.skill {
+  text-align: center;
+  font-weight: 100;
 }
 .figure-caption {
+  font-weight: 200;
   margin-left: 25px;
   font-size: 0.6rem;
   color: white;
@@ -212,74 +284,7 @@ a:hover {
   color: white;
 }
 
-/* Colours */
-
-.white {
-  color: #fff;
-}
-.blue {
-  color: #4D88C2;
-}
-.back-blue {
-  background-color: #4D88C2;
-}
-.red {
-  color: #669999;
-}
-.back-red {
-  background-color: #669999;
-}
-.lgrey {
-  color: #A6ADB4;
-}
-.back-lgrey {
-  background-color: #A6ADB4;
-}
-.dgrey {
-  color: #777B7E;
-}
-.back-dgrey {
-  background-color: #777B7E;
-}
-
-/* Navbar */
-
-#nav {
-  margin: 0;
-}
-#nav li {
-  font-size: 12px;
-  padding: 0;
-}
-/* PageHeaders */
-.pageheader-lt {
-  font-family: 'Spectral', serif;
-  text-align: center;
-  font-size: 2em;
-  color: white;
-  margin-top: 90px;
-  margin-bottom: 20px;
-  text-shadow: 1px 1px #000000;
-}
-.pageheader-dk {
-  font-family: 'Spectral', serif;
-  text-align: center;
-  font-size: 2em;
-  color: #777B7E;
-  margin-top: 90px;
-  margin-bottom: 20px;
-}
-
-.pageheader-red {
-  font-family: 'Spectral', serif;
-  text-align: center;
-  font-size: 2em;
-  color: #993333;
-  margin-top: 90px;
-  margin-bottom: 20px;
-}
-
-/* Experience / Education */
+/* Timeline - used from the mini-project CodeInstitute and restyled for Designed.Irish */
 
 .timeline-item {
   padding: 4em 2em 0em 2em;
