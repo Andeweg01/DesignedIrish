@@ -109,7 +109,7 @@ a:hover {
   padding: 0;
   width: 100%;
   min-height: 100vh;
-  background: url('../images/img_kite_lg.jpg') no-repeat left;
+  background: url('../images/img_kite_lg.jpg') no-repeat center;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -174,7 +174,7 @@ a:hover {
 }
 .alert-2 {
   margin-left: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   font-weight: 600;
   font-size: 1.2em;
   color: white;
@@ -266,6 +266,15 @@ a:hover {
   text-align: center;
   font-size: 2em;
   color: #777B7E;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.pageheader-red {
+  font-family: 'Spectral', serif;
+  text-align: center;
+  font-size: 2em;
+  color: #993333;
   margin-top: 90px;
   margin-bottom: 20px;
 }
