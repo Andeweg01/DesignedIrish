@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 a {
-  color: white;
+  color: lightblue;
 }
 a:hover {
   text-decoration: none;
@@ -54,6 +54,9 @@ a:hover {
 .blue {
   color: #4D88C2;
 }
+.skillblue {
+  color: #4D88C2;
+}
 .back-blue {
   background-color: #4D88C2;
 }
@@ -75,6 +78,59 @@ a:hover {
 .back-dgrey {
   background-color: #777B7E;
 }
+
+/* MDBootstrap tweaks */
+
+.modal-dialog.cascading-modal .modal-c-tabs .tab-content {
+    padding: 1.7rem
+}
+
+.btn-secondary {
+    color: lightslategrey;
+    background-color: black!important
+}
+
+.btn-secondary:hover {
+    color: lightslategrey;
+    background-color: darkgrey;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+}
+
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active {
+    background-color: darkgrey
+}
+
+.btn-secondary.dropdown-toggle {
+    background-color: darkgrey!important
+}
+
+.btn-secondary.dropdown-toggle:hover,
+.btn-secondary.dropdown-toggle:focus {
+    background-color: darkgrey!important
+}
+
+.btn-secondary:not([disabled]):not(.disabled):active,
+.btn-secondary:not([disabled]):not(.disabled).active,
+.show>.btn-secondary.dropdown-toggle {
+    background-color: darkgrey!important;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+}
+
+.btn-secondary:not([disabled]):not(.disabled):active:focus,
+.btn-secondary:not([disabled]):not(.disabled).active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+}
+
 
 /* PageHeaders */
 
@@ -99,8 +155,8 @@ a:hover {
 .pageheader-red {
   font-family: 'Spectral', serif;
   text-align: center;
-  font-size: 2em;
-  color: #993333;
+  font-size: 3em;
+  color: #8F2123;
   margin-top: 90px;
 }
 
@@ -238,7 +294,7 @@ a:hover {
   font-size: 1.2em;
   color: white;
   text-align: center;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 1px 1px #000000;
 }
 .alert-2 {
   margin-left: 35px;
